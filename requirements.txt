@@ -2,3 +2,4 @@ streamlit
 pandas
 scapy
 plotly
+geoip2
