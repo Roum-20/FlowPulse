@@ -7,17 +7,19 @@ A real-time, interactive dashboard built with **Python**, **Scapy**, and **Strea
 
 ## 🚀 Features
 
-- 📡 **Live packet capture** using `scapy`
-- 📊 **Traffic visualizations**:
-  - Bandwidth usage
-  - Protocol distribution
-  - Heatmap (Time vs Protocol)
-- 🔍 **Live filtering** by protocol and IP address
-- 🔐 **Port scan detection** (alerts on suspicious TCP traffic)
-- 🧵 **Multi-threaded packet capture**
-- 🧠 **Packet payload viewer** (hex-encoded)
-- 💾 **SQLite logging** of captured packets
-- 📥 **CSV download** of traffic data
+- 🔎 Live packet sniffing (IP, TCP, UDP, ICMP)
+- 📈 Real-time bandwidth usage and protocol distribution
+- 🌍 GeoIP lookup and country-based traffic mapping (requires GeoLite2 database)
+- 🌐 Interactive network map (source ➜ destination)
+- 📊 Time-series heatmaps
+- 🧠 DNS packet detection
+- 🎯 Target port filter
+- 🔤 Full-text payload search
+- 🎛️ Sidebar filters (IP, protocol, port, payload)
+- 🎨 Light/Dark mode toggle
+- 🛢️ SQLite logging
+- 📥 Export traffic as CSV
+- 🔄 Auto-refresh with customizable interval
 
 ---
 
