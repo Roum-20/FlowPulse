@@ -147,7 +147,7 @@ def draw_network_map(df):
     st.plotly_chart(fig, use_container_width=True)
 
 def main():
-    st.set_page_config("Windows Network Dashboard", layout="wide")
+    st.set_page_config("FlowPulse Dashboard", layout="wide")
 
     st.sidebar.title("Settings")
     dark_mode = st.sidebar.checkbox("🌙 Dark Mode", value=False)
