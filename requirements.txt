@@ -1,5 +1,7 @@
-streamlit
-pandas
-scapy
-plotly
-geoip2
+streamlit==1.35.0
+scapy==2.5.0
+pandas==2.2.2
+plotly==5.21.0
+geoip2==4.8.0
+maxminddb==2.6.1
+numpy==1.26.4
